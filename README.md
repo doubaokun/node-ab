@@ -7,7 +7,7 @@ Ab testing tool to check the performance of an HTTP service. 100 more GET reques
  
 ## Installation:
 
-    npm install node-ab -g 
+    sudo npm install node-ab -g 
 
 ## Usage:
 
