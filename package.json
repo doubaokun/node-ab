@@ -1,0 +1,23 @@
+{
+  "name": "node-ab",
+  "version": "0.0.1",
+  "description": "A command tool to test the performance of HTTP services.",
+  "bin": {
+    "nab": "./bin/nab"
+  },
+  "dependencies": {
+    "colors": "~0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doubaokun/node-ab"
+  },
+  "keywords": [
+    "ab",
+    "performance",
+    "testing",
+    "http"
+  ],
+  "author": "Bruce Dou <doubaokun@gmail.com>",
+  "url": "https://github.com/doubaokun/node-ab/blob/master/LICENSE-MIT"
+}
