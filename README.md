@@ -4,6 +4,10 @@ Ab testing tool to check the performance of an HTTP service. 100 more GET reques
  will be increased per second. It will not increase more request if there are more
  than 10 request not returned. It will stop when there are less than 99% request 
  return successful.
+ 
+## Installation:
+
+    npm install node-ab -g 
 
 ## Usage:
 
