@@ -1,12 +1,21 @@
+var cluster = require('cluster');
+var numCPUs = /*require('os').cups().length*/ 8;
 var express = require('express');
-var app = express();
 
-app.get('/test', function(req, res) {
-  var body = '';
-  for(var i=0;i<100;i++) {
-    body += 'aaaaa';
+if(cluster.isMaster) { 
+  for(var i = 0; i < numCPUs; i++) {
+    cluster.fork();
   }
-  res.end(body);
-});
+} else {
+  var app = express();
 
-app.listen(3000);
+  app.get('/test', function(req, res) {
+    var body = '';
+    for(var i=0;i<100;i++) {
+      body += 'aaaaa';
+    }
+    res.end(body);
+  });
+
+  app.listen(4000);
+}
