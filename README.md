@@ -11,7 +11,7 @@ Ab testing tool to check the performance of an HTTP service. 100 more GET reques
 
 ## Usage:
 
-    nab [URL]
+    nab [URL] [--increase 100] [--milliseconds 1] [--help] [--verbose]
 
 ## Example:
 
