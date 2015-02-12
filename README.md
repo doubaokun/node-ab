@@ -4,6 +4,8 @@ Ab testing tool to check the performance of an HTTP service. 100 more GET reques
  will be increased per second. It will not increase more request if there are more
  than 10 request not returned. It will stop when there are less than 99% request 
  return successful.
+
+The requests number per increase round and the time of each round can be changed by user.
  
 ## Installation:
 
@@ -22,5 +24,4 @@ Ab testing tool to check the performance of an HTTP service. 100 more GET reques
     REQ NUM: 2900 RTN NUM: 2900 QPS: 242 BODY TRAF: 121KB per second
     REQ NUM: 4400 RTN NUM: 4400 QPS: 294 BODY TRAF: 147KB per second
     REQ NUM: 6200 RTN NUM: 6200 QPS: 345 BODY TRAF: 172KB per second
-    ^C%
 
