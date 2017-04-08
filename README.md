@@ -2,6 +2,8 @@
 
 Automatically benchmarking the performance of HTTP services.
 
+![node-ab](https://raw.githubusercontent.com/doubaokun/node-ab/master/node-ab.gif)
+
 ## How it works
 Ab testing tool to check the performance of an HTTP service. 100 more GET request will be increased per second. It will not increase more request if there are more than 10 request not returned. It will stop when there are less than 99% request return successful.
 
