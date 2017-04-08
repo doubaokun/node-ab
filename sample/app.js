@@ -6,6 +6,7 @@ if(cluster.isMaster) {
   for(var i = 0; i < numCPUs; i++) {
     cluster.fork();
   }
+  console.log("Server started http://127.0.0.1:4000/test");
 } else {
   var app = express();
 
@@ -18,4 +19,5 @@ if(cluster.isMaster) {
   });
 
   app.listen(4000);
+
 }
