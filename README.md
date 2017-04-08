@@ -17,6 +17,22 @@ The requests number per increase round and the time of each round can be changed
 
     nab [URL] [--increase 100] [--milliseconds 1] [--help] [--verbose]
 
+
+    nab --help
+    Usage: nab <URL> [--increase 100] [--milliseconds 1] [--help] [--verbose]
+
+    Samples:
+        nab http://192.168.1.66
+        nab http://localhost
+        nab http://localhost:4000 --increase 200
+        nab http://localhost:4000 -i 200
+        nab http://localhost:4000 --milliseconds 1500
+        nab http://localhost:4000 --milliseconds 1500 --verbose
+        nab http://localhost:4000 -m 1500
+        nab http://localhost:4000 -m 1500 -v
+        nab --help
+        nab -h
+
 ## Example:
 
     nab http://localhost:4000/test
