@@ -40,10 +40,10 @@ The requests number per increase round and the time of each round can be changed
     git clone git@github.com:doubaokun/node-ab.git
     npm install -d
 
-# Start a sample http service at http://127.0.0.1:4000/test
+### Start a sample http service at http://127.0.0.1:4000/test
     node sample/app.js
 
-# Start testing the sample http service
+### Start testing the sample http service
     ./bin/nab http://localhost:81/test
 
 

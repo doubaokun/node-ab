@@ -1,6 +1,6 @@
 {
   "name": "node-ab",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A command tool to test the performance of HTTP services.",
   "bin": {
     "nab": "./bin/nab"
